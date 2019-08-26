@@ -1,0 +1,15 @@
+server:
+  port: 8083
+  servlet:
+    path: /
+mybatis:
+  type-aliases-package: com.yidu.pojo
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:ORCL
+    username: scott
+    password: tiger
+logging:
+  level:
+    com.yidu: debug
