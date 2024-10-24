@@ -15,6 +15,7 @@ public class MyController {
 
     @RequestMapping("{empno}")
     public Emp getEmpById(@PathVariable String empno){
+        System.out.println("22222222");
         Emp emp = empServer.getEmpById(empno);
         return emp;
     }
