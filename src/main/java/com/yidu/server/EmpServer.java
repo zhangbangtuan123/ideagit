@@ -11,7 +11,7 @@ public class EmpServer {
     private EmpMapper empMapper;
 
     public Emp getEmpById(String empno){
-        System.out.println("1111");
+        System.out.println("111retertertrert1");
         return empMapper.selectByPrimaryKey(empno);
     }
 
